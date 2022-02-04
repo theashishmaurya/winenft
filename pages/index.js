@@ -469,11 +469,3 @@ export default function Home() {
     </div>
   )
 }
-
-export async function section(context) {
-  return {
-    props: {}, // will be passed to the page component as props
-  }
-}
-
-export const getServerSideProps = section
