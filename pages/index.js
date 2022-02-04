@@ -39,7 +39,7 @@ const faq = [
 
 const CardData = [
   {
-    image: '/assets/how1.jpeg',
+    image: '/assets/how1.jpg',
     des: 'At any time, Whisly NFT owners can choose to exit by requesting an ownership transfer and access to physical certifications & documents. The NFTs will then be destroyed. Whisly charges a standard fee @ 20% of market value of the cask for the official ownership transfer and NFT destroy process.',
   },
   {
