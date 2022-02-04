@@ -36,7 +36,7 @@ const Navbar = () => {
         }	`}
       >
         <div className="mx-2">
-          <Image src={'/assets/logo.png'} height={76} width={190} />
+          <Image src={'/assets/logo.png'} height={60} width={191.78} />
         </div>
         <div className={`${isMobile ? 'block' : 'hidden'}`}>
           {toggleMobileMenu ? (

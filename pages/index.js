@@ -39,15 +39,15 @@ const faq = [
 
 const CardData = [
   {
-    image: '/assets/how1.png',
+    image: '/assets/how1.jpeg',
     des: 'At any time, Whisly NFT owners can choose to exit by requesting an ownership transfer and access to physical certifications & documents. The NFTs will then be destroyed. Whisly charges a standard fee @ 20% of market value of the cask for the official ownership transfer and NFT destroy process.',
   },
   {
-    image: '/assets/how2.png',
+    image: '/assets/how2.jpeg',
     des: 'Whisly NFT owners can also choose to bottle their casks using a crossover design with other NFTs they own.',
   },
   {
-    image: '/assets/how3.png',
+    image: '/assets/how3.jpeg',
     des: 'Whisly owns all casks with official documentations fully digitized on blockchain as NFT* All Whisly casks are tokenized and made available for trade.',
   },
 ]
