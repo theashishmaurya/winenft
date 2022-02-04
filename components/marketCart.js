@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const MarketCard = ({ data }) => {
+const MarketCard = (props) => {
+  const { data } = props
   return (
     <div>
       <div className=" flex w-fit flex-col items-center justify-between rounded-lg bg-nav p-2 shadow-md md:px-10">

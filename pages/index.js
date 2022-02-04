@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Card from './components/card'
-import FAQ from './components/faqBox'
-import Footer from './components/footer'
+import Card from '../components/card'
+import FAQ from '../components/faqBox'
 
 const faq = [
   {
@@ -225,7 +224,7 @@ export default function Home() {
 
               {/* <Image src={'/assets/how.png'} width={1440} height={1459} /> */}
               {CardData.map((data, index) => (
-                <Card data={data} />
+                <Card data={data} key={index} />
               ))}
             </div>
 
@@ -470,3 +469,11 @@ export default function Home() {
     </div>
   )
 }
+
+export async function section(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+
+export const getServerSideProps = section

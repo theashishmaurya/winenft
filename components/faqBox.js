@@ -1,6 +1,8 @@
 import { useState } from 'react'
 
-const FAQ = ({ data }) => {
+const FAQ = (props) => {
+  const { data } = props
+
   const [open, setOpen] = useState(false)
   const handleOpen = () => {
     setOpen(!open)

@@ -1,4 +1,4 @@
-import MarketCard from './components/marketCart'
+import MarketCard from '../components/marketCart'
 
 const data = [
   {

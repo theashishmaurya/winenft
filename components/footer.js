@@ -24,10 +24,10 @@ const Footer = () => {
         </div>
         <div className="flex basis-3/12 justify-center text-white">
           <div className="flex flex-row items-center">
-            {social.map((src) => (
+            {social.map((src, index) => (
               <div className="mx-2">
                 {' '}
-                <Image src={src} height={30} width={30} />
+                <Image src={src} height={30} width={30} key={index} />
               </div>
             ))}
           </div>

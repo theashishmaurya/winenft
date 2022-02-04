@@ -1,6 +1,9 @@
 import Image from 'next/image'
+import { GetServerSideProps } from 'next'
 
 const Card = ({ data }) => {
+  console.log(data)
+
   return (
     <div className="my-10 flex w-full flex-col items-center justify-between rounded-md bg-nav  shadow-md  lg:flex-row ">
       <div className="px-4 md:mx-20 lg:px-0">
